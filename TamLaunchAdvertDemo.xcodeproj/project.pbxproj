@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1825FE1F1F4A735B007C74F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE1E1F4A735B007C74F6 /* main.m */; };
+		1825FE221F4A735B007C74F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE211F4A735B007C74F6 /* AppDelegate.m */; };
+		1825FE251F4A735B007C74F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE241F4A735B007C74F6 /* ViewController.m */; };
+		1825FE281F4A735B007C74F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825FE261F4A735B007C74F6 /* Main.storyboard */; };
+		1825FE2A1F4A735B007C74F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1825FE291F4A735B007C74F6 /* Assets.xcassets */; };
+		1825FE2D1F4A735B007C74F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825FE2B1F4A735B007C74F6 /* LaunchScreen.storyboard */; };
+		1825FE381F4A735B007C74F6 /* TamLaunchAdvertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE371F4A735B007C74F6 /* TamLaunchAdvertDemoTests.m */; };
+		1825FE431F4A735B007C74F6 /* TamLaunchAdvertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE421F4A735B007C74F6 /* TamLaunchAdvertDemoUITests.m */; };
+		1825FE531F4A74C5007C74F6 /* TamLaunchAdvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE521F4A74C5007C74F6 /* TamLaunchAdvert.m */; };
+		1825FE571F4A8062007C74F6 /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1825FE541F4A7E66007C74F6 /* qidong.mp4 */; };
+		1825FE591F4A8263007C74F6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1825FE581F4A8263007C74F6 /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1825FE341F4A735B007C74F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1825FE121F4A735B007C74F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1825FE191F4A735B007C74F6;
+			remoteInfo = TamLaunchAdvertDemo;
+		};
+		1825FE3F1F4A735B007C74F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1825FE121F4A735B007C74F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1825FE191F4A735B007C74F6;
+			remoteInfo = TamLaunchAdvertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1825FE1A1F4A735B007C74F6 /* TamLaunchAdvertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamLaunchAdvertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FE1E1F4A735B007C74F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1825FE201F4A735B007C74F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1825FE211F4A735B007C74F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1825FE231F4A735B007C74F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1825FE241F4A735B007C74F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1825FE271F4A735B007C74F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1825FE291F4A735B007C74F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1825FE2C1F4A735B007C74F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1825FE2E1F4A735B007C74F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825FE331F4A735B007C74F6 /* TamLaunchAdvertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamLaunchAdvertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FE371F4A735B007C74F6 /* TamLaunchAdvertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamLaunchAdvertDemoTests.m; sourceTree = "<group>"; };
+		1825FE391F4A735B007C74F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825FE3E1F4A735B007C74F6 /* TamLaunchAdvertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamLaunchAdvertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FE421F4A735B007C74F6 /* TamLaunchAdvertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamLaunchAdvertDemoUITests.m; sourceTree = "<group>"; };
+		1825FE441F4A735B007C74F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825FE511F4A74C5007C74F6 /* TamLaunchAdvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TamLaunchAdvert.h; sourceTree = "<group>"; };
+		1825FE521F4A74C5007C74F6 /* TamLaunchAdvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TamLaunchAdvert.m; sourceTree = "<group>"; };
+		1825FE541F4A7E66007C74F6 /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
+		1825FE581F4A8263007C74F6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1825FE171F4A735B007C74F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE301F4A735B007C74F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE3B1F4A735B007C74F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1825FE111F4A735B007C74F6 = {
+			isa = PBXGroup;
+			children = (
+				1825FE1C1F4A735B007C74F6 /* TamLaunchAdvertDemo */,
+				1825FE361F4A735B007C74F6 /* TamLaunchAdvertDemoTests */,
+				1825FE411F4A735B007C74F6 /* TamLaunchAdvertDemoUITests */,
+				1825FE1B1F4A735B007C74F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1825FE1B1F4A735B007C74F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE1A1F4A735B007C74F6 /* TamLaunchAdvertDemo.app */,
+				1825FE331F4A735B007C74F6 /* TamLaunchAdvertDemoTests.xctest */,
+				1825FE3E1F4A735B007C74F6 /* TamLaunchAdvertDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1825FE1C1F4A735B007C74F6 /* TamLaunchAdvertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE581F4A8263007C74F6 /* 2.png */,
+				1825FE541F4A7E66007C74F6 /* qidong.mp4 */,
+				1825FE501F4A73A3007C74F6 /* TamLaunchAdvert */,
+				1825FE201F4A735B007C74F6 /* AppDelegate.h */,
+				1825FE211F4A735B007C74F6 /* AppDelegate.m */,
+				1825FE231F4A735B007C74F6 /* ViewController.h */,
+				1825FE241F4A735B007C74F6 /* ViewController.m */,
+				1825FE261F4A735B007C74F6 /* Main.storyboard */,
+				1825FE291F4A735B007C74F6 /* Assets.xcassets */,
+				1825FE2B1F4A735B007C74F6 /* LaunchScreen.storyboard */,
+				1825FE2E1F4A735B007C74F6 /* Info.plist */,
+				1825FE1D1F4A735B007C74F6 /* Supporting Files */,
+			);
+			path = TamLaunchAdvertDemo;
+			sourceTree = "<group>";
+		};
+		1825FE1D1F4A735B007C74F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE1E1F4A735B007C74F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1825FE361F4A735B007C74F6 /* TamLaunchAdvertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE371F4A735B007C74F6 /* TamLaunchAdvertDemoTests.m */,
+				1825FE391F4A735B007C74F6 /* Info.plist */,
+			);
+			path = TamLaunchAdvertDemoTests;
+			sourceTree = "<group>";
+		};
+		1825FE411F4A735B007C74F6 /* TamLaunchAdvertDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE421F4A735B007C74F6 /* TamLaunchAdvertDemoUITests.m */,
+				1825FE441F4A735B007C74F6 /* Info.plist */,
+			);
+			path = TamLaunchAdvertDemoUITests;
+			sourceTree = "<group>";
+		};
+		1825FE501F4A73A3007C74F6 /* TamLaunchAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE511F4A74C5007C74F6 /* TamLaunchAdvert.h */,
+				1825FE521F4A74C5007C74F6 /* TamLaunchAdvert.m */,
+			);
+			path = TamLaunchAdvert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1825FE191F4A735B007C74F6 /* TamLaunchAdvertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FE471F4A735B007C74F6 /* Build configuration list for PBXNativeTarget "TamLaunchAdvertDemo" */;
+			buildPhases = (
+				1825FE161F4A735B007C74F6 /* Sources */,
+				1825FE171F4A735B007C74F6 /* Frameworks */,
+				1825FE181F4A735B007C74F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TamLaunchAdvertDemo;
+			productName = TamLaunchAdvertDemo;
+			productReference = 1825FE1A1F4A735B007C74F6 /* TamLaunchAdvertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1825FE321F4A735B007C74F6 /* TamLaunchAdvertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FE4A1F4A735B007C74F6 /* Build configuration list for PBXNativeTarget "TamLaunchAdvertDemoTests" */;
+			buildPhases = (
+				1825FE2F1F4A735B007C74F6 /* Sources */,
+				1825FE301F4A735B007C74F6 /* Frameworks */,
+				1825FE311F4A735B007C74F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1825FE351F4A735B007C74F6 /* PBXTargetDependency */,
+			);
+			name = TamLaunchAdvertDemoTests;
+			productName = TamLaunchAdvertDemoTests;
+			productReference = 1825FE331F4A735B007C74F6 /* TamLaunchAdvertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1825FE3D1F4A735B007C74F6 /* TamLaunchAdvertDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FE4D1F4A735B007C74F6 /* Build configuration list for PBXNativeTarget "TamLaunchAdvertDemoUITests" */;
+			buildPhases = (
+				1825FE3A1F4A735B007C74F6 /* Sources */,
+				1825FE3B1F4A735B007C74F6 /* Frameworks */,
+				1825FE3C1F4A735B007C74F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1825FE401F4A735B007C74F6 /* PBXTargetDependency */,
+			);
+			name = TamLaunchAdvertDemoUITests;
+			productName = TamLaunchAdvertDemoUITests;
+			productReference = 1825FE3E1F4A735B007C74F6 /* TamLaunchAdvertDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1825FE121F4A735B007C74F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "涂怀安";
+				TargetAttributes = {
+					1825FE191F4A735B007C74F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+					};
+					1825FE321F4A735B007C74F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1825FE191F4A735B007C74F6;
+					};
+					1825FE3D1F4A735B007C74F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1825FE191F4A735B007C74F6;
+					};
+				};
+			};
+			buildConfigurationList = 1825FE151F4A735B007C74F6 /* Build configuration list for PBXProject "TamLaunchAdvertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1825FE111F4A735B007C74F6;
+			productRefGroup = 1825FE1B1F4A735B007C74F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1825FE191F4A735B007C74F6 /* TamLaunchAdvertDemo */,
+				1825FE321F4A735B007C74F6 /* TamLaunchAdvertDemoTests */,
+				1825FE3D1F4A735B007C74F6 /* TamLaunchAdvertDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1825FE181F4A735B007C74F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FE2D1F4A735B007C74F6 /* LaunchScreen.storyboard in Resources */,
+				1825FE2A1F4A735B007C74F6 /* Assets.xcassets in Resources */,
+				1825FE591F4A8263007C74F6 /* 2.png in Resources */,
+				1825FE281F4A735B007C74F6 /* Main.storyboard in Resources */,
+				1825FE571F4A8062007C74F6 /* qidong.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE311F4A735B007C74F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE3C1F4A735B007C74F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1825FE161F4A735B007C74F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FE251F4A735B007C74F6 /* ViewController.m in Sources */,
+				1825FE221F4A735B007C74F6 /* AppDelegate.m in Sources */,
+				1825FE1F1F4A735B007C74F6 /* main.m in Sources */,
+				1825FE531F4A74C5007C74F6 /* TamLaunchAdvert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE2F1F4A735B007C74F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FE381F4A735B007C74F6 /* TamLaunchAdvertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE3A1F4A735B007C74F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FE431F4A735B007C74F6 /* TamLaunchAdvertDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1825FE351F4A735B007C74F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1825FE191F4A735B007C74F6 /* TamLaunchAdvertDemo */;
+			targetProxy = 1825FE341F4A735B007C74F6 /* PBXContainerItemProxy */;
+		};
+		1825FE401F4A735B007C74F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1825FE191F4A735B007C74F6 /* TamLaunchAdvertDemo */;
+			targetProxy = 1825FE3F1F4A735B007C74F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1825FE261F4A735B007C74F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1825FE271F4A735B007C74F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1825FE2B1F4A735B007C74F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1825FE2C1F4A735B007C74F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1825FE451F4A735B007C74F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1825FE461F4A735B007C74F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1825FE481F4A735B007C74F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamLaunchAdvertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamLaunchAdvertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1825FE491F4A735B007C74F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamLaunchAdvertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamLaunchAdvertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1825FE4B1F4A735B007C74F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamLaunchAdvertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamLaunchAdvertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamLaunchAdvertDemo.app/TamLaunchAdvertDemo";
+			};
+			name = Debug;
+		};
+		1825FE4C1F4A735B007C74F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamLaunchAdvertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamLaunchAdvertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamLaunchAdvertDemo.app/TamLaunchAdvertDemo";
+			};
+			name = Release;
+		};
+		1825FE4E1F4A735B007C74F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamLaunchAdvertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamLaunchAdvertDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TamLaunchAdvertDemo;
+			};
+			name = Debug;
+		};
+		1825FE4F1F4A735B007C74F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamLaunchAdvertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamLaunchAdvertDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TamLaunchAdvertDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1825FE151F4A735B007C74F6 /* Build configuration list for PBXProject "TamLaunchAdvertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FE451F4A735B007C74F6 /* Debug */,
+				1825FE461F4A735B007C74F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825FE471F4A735B007C74F6 /* Build configuration list for PBXNativeTarget "TamLaunchAdvertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FE481F4A735B007C74F6 /* Debug */,
+				1825FE491F4A735B007C74F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1825FE4A1F4A735B007C74F6 /* Build configuration list for PBXNativeTarget "TamLaunchAdvertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FE4B1F4A735B007C74F6 /* Debug */,
+				1825FE4C1F4A735B007C74F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1825FE4D1F4A735B007C74F6 /* Build configuration list for PBXNativeTarget "TamLaunchAdvertDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FE4E1F4A735B007C74F6 /* Debug */,
+				1825FE4F1F4A735B007C74F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1825FE121F4A735B007C74F6 /* Project object */;
+}
