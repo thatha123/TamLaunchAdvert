@@ -22,7 +22,7 @@
 @property(nonatomic,copy)NSURL *videoUrl;//视频地址
 @property(nonatomic,copy)NSString *imgPath;
 
-@property(nonatomic,strong)id<TamLaunchAdvertDelegate> delegate;
+@property(nonatomic,weak)id<TamLaunchAdvertDelegate> delegate;
 
 @end
 
